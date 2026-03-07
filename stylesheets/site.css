@@ -1,0 +1,50 @@
+ h1{
+        color: rgb(241, 171, 5);
+    }
+    h2{
+        color: rgb(214, 17, 27);
+        text-decoration: underline;
+    }
+     h1,h2,h3,h4,h5,h6{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    p { 
+        
+    }
+
+    #banner{
+        
+        padding-bottom: 5px; 
+        padding-top: 5px;
+        text-align: center;
+    }
+    #banner P{
+        margin: 0;
+    }
+
+   
+
+    
+}
+    article{
+        margin-bottom: 50px;
+    }
+
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .diffrenttext{
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+
+    .funnycolor{
+        color: salmon;
+    }
+    
+img{
+align-items: center;
+}
