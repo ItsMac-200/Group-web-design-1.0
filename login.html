@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Login</title>
+ <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+   <link rel="stylesheet" href="stylesheets/site.css"/>
+   
+   
+</head> 
 <body>
     <div id="header">
         <div id="banner" class="bg-secondary text-white text-center">
@@ -12,7 +16,7 @@
         </div>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">STUDY.CO.NET</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,16 +25,55 @@
         <a class="nav-link" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="about_us.html">About Us</a>
         <a class="nav-link" href="contact_us.html">Contact Us</a>
+         <a class="nav-link" href="faq.html">FAQ</a>
         <a class="nav-link" href="login.html">Login</a>
         <a class="nav-link" href="Get Started.html">Get Started</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <a class="nav-link disabled"></a>
       </div>
     </div>
   </div>
 </nav>
 
-<h1>Login</h1>
-<hr/>
+<div id="main" class="container">
+    
+    <main>
 
+    <h1>Login</h1>
+    <hr/>
+      
+  
+    <form action="confirmation.html" id="contactform">
+
+      
+<div class="mb-3">
+
+<div class="mb-3">
+            <label for="email" class="form-label">Emailaddress: *</label><br/>
+        <input required type="text" class="form-control" id="email" name="emailaddress" 
+        placeholder="Mac@gmail.com" />
+        </div>
+<br/>
+
+            <label for="fullname" class="form-label">Password: *</label><br/>
+        <input required type="symbols" class="form-control" id="password" name="password" 
+        placeholder="888" />
+        </div>
+<br/>
+
+  
+<br/>
+        
+
+        <input type="submit" class="btn btn-success"/>
+        <button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
+         </form>
+    </article>
+   
+   
+    </main>
+
+    <script src="scripts/jquery.min.js"></script>
+            <script src="scripts/bootstrap.min.js"></script>
+           <script src="scripts/site.js"></script>
 </body>
 </html>
