@@ -1,5 +1,5 @@
 h1{
-        color:rgb(255, 255, 255)
+        color:rgb(5, 5, 5)
       }
       h2{
         color: crimson;
@@ -7,15 +7,19 @@ h1{
       }
       h1, h2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
       }
       P{
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #000000;
       }
 
       body{
-font-family: Arial, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-size: 126px;
 margin:0;
-background:#f5f7fb;
+background:#0b7c43;
 color:#333;
 }
 
@@ -32,20 +36,27 @@ margin-bottom:10px;
 }
 
 header p{
-font-size:18px;
+font-size:22px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
 }
 
 nav{
 background:#2e4bd1;
 padding:12px;
 text-align:center;
+text-decoration: black;
 }
 
 nav a{
-color:white;
+color:rgb(3, 3, 3);
 text-decoration:none;
 margin:0 15px;
 font-weight:bold;
+text-decoration: black;
 }
 
 section{
@@ -55,7 +66,7 @@ margin:auto;
 }
 
 h2{
-color:#4a6cf7;
+color:#000000;
 margin-bottom:15px;
 }
 
@@ -78,10 +89,58 @@ color:white;
 text-align:center;
 padding:40px 20px;
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background:#f4f6f9;
+    font-size:20px;
+}
+
+.center-page{
+    text-align:center;
+    margin:40px auto;
+}
+
+/* container width */
+.faq-container{
+    max-width:900px;
+    margin:auto;
+}
+
+/* question box */
+details{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+/* larger question text */
+summary{
+    font-weight:bold;
+    cursor:pointer;
+    font-size:22px;
+    
+}
+
+/* answer text */
+details p{
+    margin-top:10px;
+    line-height:1.6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    
+}
 
 footer{
-background:#222;
+background:#2e302f;
 color:white;
 text-align:center;
-padding:15px;
+padding:10px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+footer p, h2{
+font-size:22px;
+color: #436cdb;
 }

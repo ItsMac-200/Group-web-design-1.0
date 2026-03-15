@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
- <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
    <link rel="stylesheet" href="stylesheets/site.css"/>
    
 </head> 
 <body>
     <div id="header">
         <div id="banner" class="bg-secondary text-white text-center">
-            <p>Random websie notification</p>
+
         </div>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">STUDY.CO.NET</a>
+     <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
+    <a class="navbar-brand" href="#" >STUDY.CO.NET</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,23 +25,24 @@
         <a class="nav-link" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="about_us.html">About Us</a>
         <a class="nav-link" href="contact_us.html">Contact Us</a>
-            <a class="nav-link" href="faq.html">FAQ</a>
         <a class="nav-link" href="login.html">Login</a>
-        <a class="nav-link" href="Get Started.html">Get Started</a>
+            <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="get_started.html">Get Started</a>
         <a class="nav-link disabled"></a>
       </div>
     </div>
   </div>
 </nav>
 
+
 <div id="main" class="container">
     
     <main>
-
+<br/>
+<br/>
     <h1 >Contact Us</h1>
     <hr/>
-      
-<P class="text-center"> Use this form to reach out to our Customer Success Team regarding any questions, concerns, 
+      <P class="text-center"> Use this form to reach out to our Customer Success Team regarding any questions, concerns, 
   or feedback. <br/> You can also view our FAQ for quick answers to commonly asked questions.</P>
 
     <article>
@@ -55,7 +57,7 @@
         
         <tr>
              <td>
-                <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
+                <img class="logo" src="images/Logo1.png" alt="Logo1" width="90" height="70"/>
             </td>
             <td>1876-998-3865</td>
             <td>study.co.net@gmail.com</td>
@@ -63,7 +65,7 @@
         </tr>
         <tr>
             <td>
-                <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100""/>
+                <img class="logo" src="images/Logo1.png" alt="Logo1" width="90" height="70"/>
             </td>
              <td>1876-980-8965</td>
             <td>mystudies@gmail.com</td>
@@ -74,40 +76,39 @@
  <br/>
 <br/>
 
-    
 <br/>
 <h2>General Inquiries</h2>
         <div class="mb-3">
-            <label class="form-label">I am a registerd client and I need support</label><br/>
-             <input id="yes querry" type="radio" value="s" name="querry" class="form-check-input"/>
+            <label class="form-label">I am a registerd client and I need support.</label><br/>
+             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
   </label>
   
 <br/>
 <br/>
-<label class="form-label">I have a question about the service</label><br/>
-             <input id="yes querry" type="radio" value="s" name="querry" class="form-check-input"/>
+<label class="form-label">I have a question about the services you offer?</label><br/>
+             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
   </label>
           
 <br/>
 <br/>
-  <label class="form-label">How does this app help proritize my studying</label><br/>
-             <input id="yes querry" type="radio" value="s" name="querry" class="form-check-input"/>
+  <label class="form-label">How does this app help in proritizing my studies?</label><br/>
+             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
              </label>
   </label>
 <br/>
 <br/>
-  <label class="form-label">Can multiple people use one account</label><br/>
-             <input id="yes querry" type="radio" value="s" name="querry" class="form-check-input"/>
+  <label class="form-label">Can multiple people use one account?</label><br/>
+             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
              </label>
   </label>
   <br/>
 <br/>
-  <label class="form-label">I am interested in STUDY.CO For my organization</label><br/>
-             <input id="yes querry" type="radio" value="s" name="querry" class="form-check-input"/>
+  <label class="form-label">I am interested in STUDY.CO For my School.</label><br/>
+             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
              </label>
   </label>
@@ -116,19 +117,21 @@
 <br/>
 <br/><br/>
 
- <form action="confirmation.html" id="contactform"></form>
+
+
+    <form action="confirmation.html" id="contactform">
 
         <div class="mb-3">
             <label for="fullname" class="form-label">Name: *</label><br/>
-        <input required type="email" class="form-control" id="fullname" name="fullname" 
-        placeholder="Mac lo" />
+        <input required type="text" class="form-control" id="fullname" name="fullname" 
+        placeholder="Mac Study.CO" />
         </div>
 <br/>
 <br/>
 
 <div class="mb-3">
-            <label for="fullname" class="form-label">Telephone Number: *</label><br/>
-        <input required type="email" class="form-control" id="number" name="number" 
+            <label for="number" class="form-label">Telephone Number: *</label><br/>
+        <input required type="tel" class="form-control" id="number" name="number" 
         placeholder="888-888-888" />
         </div>
 <br/>
@@ -136,13 +139,14 @@
 
   <div class="mb-3">
             <label for="email" class="form-label">Emailaddress: *</label><br/>
-        <input required type="text" class="form-control" id="email" name="emailaddress" 
+        <input required type="email" class="form-control" id="email" name="emailaddress" 
         placeholder="Mac@gmail.com" />
         </div>
-        <br/>
-
+<br/>
+<br/>
+       
 <div class="mb-3">
-  <label for="inquiry" class="form-label"*> Other: State Your enqyiry</label>
+  <label for="inquiry" class="form-label"*> Other: State Your Enquiry</label>
    <br/>
 
   <textarea class="form-control"cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry">
@@ -159,14 +163,23 @@
    
    
     </main>
-   <footer>
+
+    <div class="cta">
+<p>Start using the Student Digital Planner today and improve your productivity.</p>
+</div>
+
+<footer>
+<p>Student Digital Planner Project | 2026</p>
+
+<a href="https://www.betterhelp.com" target="_blank">Better help</a>
+
+      
 <script src="scripts/jquery.min.js"></script>
             <script src="scripts/bootstrap.min.js"></script>
            <script src="scripts/site.js"></script>
-            <h2>How can you register</h2>
+            <h2>Register now Start your Journey</h2>
            </footer> 
 
           
-
 </body>
 </html>

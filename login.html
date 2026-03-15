@@ -12,11 +12,12 @@
 <body>
     <div id="header">
         <div id="banner" class="bg-secondary text-white text-center">
-            <p>Random websie notification</p>
+            
         </div>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">STUDY.CO.NET</a>
+     <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +28,7 @@
         <a class="nav-link" href="contact_us.html">Contact Us</a>
          <a class="nav-link" href="faq.html">FAQ</a>
         <a class="nav-link" href="login.html">Login</a>
-        <a class="nav-link" href="Get Started.html">Get Started</a>
+        <a class="nav-link" href="get_started.html">Get Started</a>
         <a class="nav-link disabled"></a>
       </div>
     </div>
@@ -37,49 +38,56 @@
 <div id="main" class="container">
     
     <main>
+<br/>
+<br/>
+   <h1>Login</h1>
+   <hr/>
 
-    <h1>Login</h1>
-    <hr/>
-      
-  
-    <form action="confirmation.html" id="contactform">
+<form action="confirmation.html" method="contactform">
 
-      
+  <div class="mb-3">
+
 <div class="mb-3">
 
-<div class="mb-3">
-            <label for="email" class="form-label">Emailaddress: *</label><br/>
-        <input required type="text" class="form-control" id="email" name="emailaddress" 
-        placeholder="Mac@gmail.com" />
-        </div>
-<br/>
+<label for="email" class="form-label">Emailaddress: *</label><br>
+<input type="email" class="form-control" id="email" name="emailaddress" 
+placeholder="study.co@gmail.comb"/>
+</div>
 
-            <label for="fullname" class="form-label">Password: *</label><br/>
-        <input required type="symbols" class="form-control" id="password" name="password" 
-        placeholder="888" />
-        </div>
 <br/>
-
-  
 <br/>
-        
+<label for="password" class="form-label">Password: *</label><br>
+<input type="password" class="form-control" id="password" name="password"
+ placeholder="Enter your password"/><br><br>
+</div>
 
-        <input type="submit" class="btn btn-success"/>
-        <button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
-         </form>
-    </article>
-   
+<br/>
+<button type="submit" class="btn btn-success">Submit</button>
+
+</form>
+
+<br>
+
+<a href="forgotpasswod.html">Forgot Password?</a>
+
+
    
     </main>
+    <div class="cta">
+<p>Start using the Student Digital Planner today and improve your productivity.</p>
+</div>
 
-    <footer>
+<footer>
+<p>Student Digital Planner Project | 2026</p>
+
+<a href="https://www.betterhelp.com" target="_blank">Better help</a>
+
+
 <script src="scripts/jquery.min.js"></script>
             <script src="scripts/bootstrap.min.js"></script>
            <script src="scripts/site.js"></script>
-            <h2>How can you register</h2>
-
-           </footer> 
-
-
+</footer>
+          
 </body>
 </html>
+
