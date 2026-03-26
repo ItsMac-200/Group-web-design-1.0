@@ -37,125 +37,131 @@
   </div>
 </nav>
 
+
+
     <br/>
 <br/>
-<h1>Choose Your Study Plan</h1>
-<br/>
-
-<p>Select a study plan to see its full details and submit it.</p>
-
-<label for="study-plan">Select a Study Plan:</label>
-<select id="study-plan">
-    <option value="">-- Choose a Plan --</option>
-    <optgroup label="High School Plans">
-      <option value="hs-level1">Level 1 – Beginner High School</option>
-      <option value="hs-level2">Level 2 – Intermediate High School</option>
-      <option value="hs-level3">Level 3 – Advanced High School</option>
-    </optgroup>
-    <optgroup label="Tertiary Plans">
-      <option value="uni-level1">Level 1 – Beginner Tertiary</option>
-      <option value="uni-level2">Level 2 – Intermediate Tertiary</option>
-      <option value="uni-level3">Level 3 – Advanced Tertiary</option>
-    </optgroup>
-</select>
+<h1>Select Your Study Plan</h1>
+<p>Review all available study plans below, choose one that suits you, and submit your selection.</p>
 
 <hr>
 
-<!-- High School Level 1 -->
-<form id="hs-level1" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 1 – Beginner High School Study Plan</h2>
+<form action="confirmation.html" id="contactform">
+
+<h2>High School Plans</h2>
+<br/>
+
+<div>
+<h3>
+<input type="radio" name="plan" value="hs-level1" required>
+Level 1 – Beginner High School
+</h3>
+
 <p><strong>Objectives:</strong> Build basic study habits, track homework, improve organization.</p>
-<p><strong>Weekly Structure:</strong></p>
 <ul>
-<li>Sunday: Plan week, list assignments, set 3 goals.</li>
-<li>Monday-Friday: Review notes, complete homework, update planner.</li>
-<li>Saturday: Review subjects, prep for next week.</li>
+<li>Sunday: Plan week, list assignments, set goals.</li>
+<li>Monday–Friday: Review notes and complete homework.</li>
+<li>Saturday: Light revision and preparation.</li>
 </ul>
-<input type="hidden" name="plan" value="hs-level1">
-<input type="submit" value="Submit This Plan">
+</div>
+
+<hr>
+
+<br/>
+<div>
+<h3>
+<input type="radio" name="plan" value="hs-level2">
+Level 2 – Intermediate High School
+</h3>
+
+<p><strong>Objectives:</strong> Balance academics and extracurricular activities.</p>
+<ul>
+<li>4:00–4:30 PM: Review notes</li>
+<li>4:30–5:30 PM: Homework</li>
+<li>6:00–6:45 PM: Test prep</li>
+<li>7:30 PM: Planner update</li>
+</ul>
+</div>
+
+<hr>
+<br/>
+
+<div>
+<h3>
+<input type="radio" name="plan" value="hs-level3">
+Level 3 – Advanced High School
+</h3>
+
+<p><strong>Objectives:</strong> Exam preparation and performance tracking.</p>
+<ul>
+<li>4:00–5:00 PM: Homework</li>
+<li>5:30–6:30 PM: Study session</li>
+<li>Weekend: Practice past papers</li>
+</ul>
+</div>
+
+<hr>
+<br/>
+
+<h2>Tertiary Plans</h2>
+<br/>
+
+<div>
+<h3>
+<input type="radio" name="plan" value="uni-level1">
+Level 1 – Beginner Tertiary
+</h3>
+
+<p><strong>Objectives:</strong> Transition to independent study.</p>
+<ul>
+<li>Sunday: Plan lectures and assignments</li>
+<li>Daily: Review notes and complete readings</li>
+</ul>
+</div>
+
+<hr>
+<br/>
+
+<div>
+<h3>
+<input type="radio" name="plan" value="uni-level2">
+Level 2 – Intermediate Tertiary
+</h3>
+
+<p><strong>Objectives:</strong> Balance studies with work or activities.</p>
+<ul>
+<li>Morning: Lectures</li>
+<li>Afternoon: Review notes</li>
+<li>Evening: Assignments</li>
+</ul>
+</div>
+
+<hr>
+<br/>
+
+<div>
+<h3>
+<input type="radio" name="plan" value="uni-level3">
+Level 3 – Advanced Tertiary
+</h3>
+
+<p><strong>Objectives:</strong> Manage research, projects, and deadlines.</p>
+<ul>
+<li>8:00–12:00: Lectures/research</li>
+<li>1:00–3:00: Assignments</li>
+<li>Weekend: Progress review</li>
+</ul>
+</div>
+
+<hr>
+
+<input type="submit" class="btn  btn-success" value="Submit Selected Plan">
+
 </form>
 
-<!-- High School Level 2 -->
-<form id="hs-level2" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 2 – Intermediate High School Study Plan</h2>
-<p><strong>Objectives:</strong> Balance academics with extracurriculars, improve productivity.</p>
-<ul>
-<li>4:00–4:30 PM: Review notes.</li>
-<li>4:30–5:30 PM: Homework.</li>
-<li>6:00–6:45 PM: Test prep.</li>
-<li>7:30–8:00 PM: Planner update and prep for next day.</li>
-</ul>
-<input type="hidden" name="plan" value="hs-level2">
-<input type="submit" value="Submit This Plan">
-</form>
 
-<!-- High School Level 3 -->
-<form id="hs-level3" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 3 – Advanced High School Study Plan</h2>
-<p><strong>Objectives:</strong> Exam prep, practice questions, progress tracking.</p>
-<ul>
-<li>4:00–5:00 PM: Homework.</li>
-<li>5:00–5:30 PM: Break.</li>
-<li>5:30–6:30 PM: Study/practice questions.</li>
-<li>8:00–8:15 PM: Update planner and review goals.</li>
-<li>Weekend: Past exam questions and weekly evaluation.</li>
-</ul>
-<input type="hidden" name="plan" value="hs-level3">
-<input type="submit" value="Submit This Plan">
-</form>
-
-<!-- Tertiary Level 1 -->
-<form id="uni-level1" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 1 – Beginner Tertiary Study Plan</h2>
-<p><strong>Objectives:</strong> Transition to independent study, build organization, track assignments.</p>
-<ul>
-<li>Sunday: List lectures, assignments, readings, set goals.</li>
-<li>Daily: Review notes, complete readings/assignments, update planner.</li>
-</ul>
-<input type="hidden" name="plan" value="uni-level1">
-<input type="submit" value="Submit This Plan">
-</form>
-
-<!-- Tertiary Level 2 -->
-<form id="uni-level2" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 2 – Intermediate Tertiary Study Plan</h2>
-<p><strong>Objectives:</strong> Balance coursework with jobs/extracurriculars, prioritize deadlines.</p>
-<ul>
-<li>Morning: Attend lectures.</li>
-<li>Afternoon: Review notes, complete readings.</li>
-<li>Evening: Assignments/projects.</li>
-<li>Weekly review: Evaluate progress, adjust schedule.</li>
-</ul>
-<input type="hidden" name="plan" value="uni-level2">
-<input type="submit" value="Submit This Plan">
-</form>
-
-<!-- Tertiary Level 3 -->
-<form id="uni-level3" class="plan-form" style="display:none;" action="submit-plan.php" method="post">
-<h2>Level 3 – Advanced Tertiary Study Plan</h2>
-<p><strong>Objectives:</strong> Manage complex workloads, research, internships, high academic performance.</p>
-<ul>
-<li>8:00–12:00: Lectures or research.</li>
-<li>1:00–3:00: Assignments/projects.</li>
-<li>3:00–4:00: Break.</li>
-<li>4:00–6:00: Study or project work.</li>
-<li>Weekend: Review progress, plan next week, update planner.</li>
-</ul>
-<input type="hidden" name="plan" value="uni-level3">
-<input type="submit" value="Submit This Plan">
-</form>
-
-
-    <h2>Custom Plan</h2>
 
     
-
-    <form action="confirmation.html" id="contactform"></form>
-
-
-    <input type="submit" class="btn btn-success"/>
-        <button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
-         </form>
 <br/>
 <br/>
 <br/>
