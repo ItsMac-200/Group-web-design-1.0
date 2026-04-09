@@ -99,7 +99,7 @@ nav a:hover {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    background: linear-gradient(90deg, #0b7c43, #4a6cf7, #6f4ce8);
+    background: linear-gradient(90deg, #070707, hsl(228, 100%, 2%), #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
