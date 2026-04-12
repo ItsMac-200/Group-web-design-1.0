@@ -4,7 +4,7 @@
     }
 
     $(function(){
-var pages = ['index','about','contact'];
+var pages = ['index','about','contact','faq','login','get_started','study_plan'];
 var pathname = window.location.pathname;
 
 $('.nav-link').each(function(item){
