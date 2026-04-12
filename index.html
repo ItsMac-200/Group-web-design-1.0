@@ -4,143 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
-   <link rel="stylesheet" href="stylesheets/site.css"/>
+    <link rel="stylesheet" href="stylesheets/site.css"/>
 </head>
+
 <body>
-  
- <div id="header">
-  <div id="banner" class="bg-secondary text-white text-center">
-          
+
+<!-- HEADER -->
+<div id="header">
+    <div id="banner" class="bg-secondary text-white text-center"></div>
+
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <img class="logo" src="images/Logo1.png" alt="Study.Co.Net logo" width="130" height="100"/>
+            <a class="navbar-brand" href="index.html">STUDY.CO.NET</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                    <a class="nav-link" href="contact_us.html">Contact Us</a>
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="get_started.html">Get Started</a>
+                </div>
+            </div>
         </div>
-  <div id="nav">
- <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-     <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
-    <a class="navbar-brand" href="#" >STUDY.CO.NET</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="about_us.html">About Us</a>
-        <a class="nav-link" href="contact_us.html">Contact Us</a>
-            <a class="nav-link" href="faq.html">FAQ</a>
-        <a class="nav-link" href="login.html">login</a>
-        <a class="nav-link" href="get_started.html">Get Started</a>
-        <a class="nav-link disabled" ></a>
-      </div>
-    </div>
-  </div>
-</nav>
-<br/>
-<br/>
-<h1>STUDY.CO.NET</h1>
-<hr/>
-  </div>
+    </nav>
 
- </div>
-  <div id="main">
+    <div class="text-center mt-3 site-title">STUDY.CO.NET</div>
+    <hr/>
+</div>
 
+<!-- MAIN -->
+<main id="main">
 
-  <!-- Carousel Container -->
-  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<!-- CAROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
     <!-- Indicators -->
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
 
-    <!-- Carousel Inner -->
+    <!-- Slides -->
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/pic1.jpg" class="d-block w-100 carousel-img" alt="pic1">
-        <div class="carousel-caption">
-          <h2>Welcome to STUDY.CO.NET</h2>
-          <p>Explore amazing things every day!</p>
+        <div class="carousel-item active">
+            <img src="images/pic1.jpg" class="d-block w-100 carousel-img" alt="Slide 1">
+            <div class="carousel-caption">
+                <h2>Welcome to STUDY.CO.NET</h2>
+                <p>Explore amazing things every day!</p>
+                <p>Developed by: Johnaton Butler, Ucal McKenzie, Aisha Simmonds and Danielle Lawrence</p>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/pic2.jpg" class="d-block w-100 carousel-img" alt="pic2">
-        <div class="carousel-caption">
-          <h2>Welcome to STUDY.CO.NET</h2>
-          <p>Discover new adventures!</p>
+
+        <div class="carousel-item">
+            <img src="images/pic2.jpg" class="d-block w-100 carousel-img" alt="Slide 2">
+            <div class="carousel-caption">
+                <h2>Welcome to STUDY.CO.NET</h2>
+                <p>Discover new adventures!</p>
+                <p>Developed by: Johnaton Butler, Ucal McKenzie, Aisha Simmonds and Danielle Lawrence</p>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/pic3.jpg" class="d-block w-100 carousel-img" alt="pic3">
-        <div class="carousel-caption">
-          <h2>Welcome to STUDY.CO.NET</h2>
-          <p>Feel the inspiration!</p>
-          <br/>
-          <br/>
-          <p>Feel the inspiration!</p>
+
+        <div class="carousel-item">
+            <img src="images/pic3.jpg" class="d-block w-100 carousel-img" alt="Slide 3">
+            <div class="carousel-caption">
+                <h2>Welcome to STUDY.CO.NET</h2>
+                <p>Feel the inspiration!</p>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Previous">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="Next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </button>
-  </div>
-
-<header>
-  <h1>Student Digital Planner</h1>
-<p>A smarter way for students to organize their time, stay productive, and reach their academic goals.</p>
-</header>
-
-<nav>
-  <a href="#">The Challenge</a>
-<a href="aproach.html">Our Approach</a>
-<a href="planner_tools.html">Planner Tools</a>
-<a href="why_it_matters.html">Why It Matters</a>
-<a href="foundations.html">Project Foundations</a>
-</nav>
-
-<section>
-<h2>The Challenge Students Face</h2>
-<p>
-Modern students manage more responsibilities than ever before. Between coursework,
-extracurricular activities, and sometimes part-time jobs, staying organized can
-become extremely difficult. Without a clear system for planning and prioritizing,
-many students struggle to manage their time effectively.
-</p>
-
-<p>
-This often leads to missed deadlines, incomplete assignments, and unnecessary
-stress. Over time, poor time management can affect academic performance and
-overall productivity. Developing better organizational habits is therefore
-essential not only for academic success but also for preparing students
-for the responsibilities of the workplace and everyday life.
-</p>
-</section>
-
-
-
-<div class="cta">
-<p>Start using the Student Digital Planner today and improve your productivity.</p>
 </div>
 
-<footer>
-<p>Student Digital Planner Project | 2026</p>
+<!-- CONTENT -->
+<header class="text-center mt-4">
+    <h1>Student Digital Planner</h1>
+    <p>A smarter way for students to organize their time, stay productive, and reach their academic goals.</p>
+</header>
 
-<a href="https://www.betterhelp.com" target="_blank">Better help</a>
+<nav class="text-center">
+    <a href="#challenge">The Challenge</a>
+    <a href="aproach.html">Our Approach</a>
+    <a href="planner_tools.html">Planner Tools</a>
+    <a href="why_it_matters.html">Why It Matters</a>
+    <a href="foundations.html">Project Foundations</a>
+</nav>
 
-           <script src="scripts/jquery.min.js"></script>
-            <script src="scripts/bootstrap.min.js"></script>
-           <script src="scripts/site.js"></script>
-<h2>Register now Start your Journey</h2>
+<section id="challenge" class="container mt-4">
+    <h2>The Challenge Students Face</h2>
+    <p>
+        Modern students manage more responsibilities than ever before...
+    </p>
+</section>
 
+<div class="cta text-center mt-4">
+    <p>Start using the Student Digital Planner today and improve your productivity.</p>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="text-center mt-5">
+    <p>Student Digital Planner Project | 2026</p>
+    <a href="https://www.betterhelp.com" target="_blank" rel="noopener noreferrer">BetterHelp</a>
+    <h2>Register now Start your Journey</h2>
 </footer>
-    
-          >
+
+<!-- SCRIPTS (IMPORTANT: Bootstrap JS last) -->
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/site.js"></script>
+
 </body>
 </html>
