@@ -129,15 +129,15 @@ nav a:hover {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    background: linear-gradient(90deg, #0c0c0c, #00020a, #4721d1);
+    background: linear-gradient(90deg, #ffffff, #f9f9fa, #4721d1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .carousel-caption p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    background: linear-gradient(90deg, #0b7c43, #4a6cf7, #6f4ce8);
+    background: linear-gradient(90deg, #d4e6d1, #0033ff, #3700ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
