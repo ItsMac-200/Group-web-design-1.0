@@ -9,24 +9,37 @@
    
 </head> 
 <body>
-    <div id="header">
+
+<div id="header">
+
+      <!-- Banner Section -->
         <div id="banner" class="bg-secondary text-white text-center">
 
         </div>
+
+        <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
+
+     <!-- Logo -->
      <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
+
+    <!-- Website Name -->
     <a class="navbar-brand" href="#" >STUDY.CO.NET</a>
+
+    <!-- Navbar Toggle Button -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- Navigation Links -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="about_us.html">About Us</a>
         <a class="nav-link" href="contact_us.html">Contact Us</a>
         <a class="nav-link" href="login.html">Login</a>
-            <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
         <a class="nav-link" href="get_started.html">Get Started</a>
         <a class="nav-link disabled"></a>
       </div>
@@ -34,20 +47,29 @@
   </div>
 </nav>
 
-
+<!-- ================= MAIN CONTAINER ================= -->
 <div id="main" class="container">
     
+    <!-- Main Content Area -->
     <main>
+
 <br/>
 <br/>
+
+    <!-- Page Title -->
     <h1 style="text-align: center;">Contact Us</h1>
     <hr/>
-      <P class="text-center"> Use this form to reach out to our Customer Success Team regarding any questions, concerns, 
+
+    <!-- Intro Text -->
+    <P class="text-center"> Use this form to reach out to our Customer Success Team regarding any questions, concerns, 
   or feedback. <br/> You can also view our FAQ for quick answers to commonly asked questions.</P>
 
+    <!-- ================= CONTACT DETAILS ================= -->
     <article>
+
 <h2>Contatct Details</h2>
 
+    <!-- Contact Details Table -->
     <table class="table table-striped table-hover">
         <tr>
         <th>logo</th>
@@ -61,125 +83,146 @@
             </td>
             <td>1876-998-3865</td>
             <td>study.co.net@gmail.com</td>
-            
         </tr>
+
         <tr>
             <td>
                 <img class="logo" src="images/Logo1.png" alt="Logo1" width="90" height="70"/>
             </td>
              <td>1876-980-8965</td>
             <td>mystudies@gmail.com</td>
-           
         </tr>
-         </table>
+
+     </table>
     </article>
- <br/>
-<br/>
 
 <br/>
+<br/>
+<br/>
+
+<!-- ================= GENERAL INQUIRIES ================= -->
 <h2>General Inquiries</h2>
+
         <div class="mb-3">
+
             <label class="form-label">I am a registerd client and I need support.</label><br/>
              <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
              <label class="form-check-label" for="yes querry">
   </label>
-  
+
 <br/>
 <br/>
+
 <label class="form-label">I have a question about the services you offer?</label><br/>
-             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
-             <label class="form-check-label" for="yes querry">
-  </label>
-          
+<input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
+<label class="form-check-label" for="yes querry">
+</label>
+
 <br/>
 <br/>
-  <label class="form-label">How does this app help in proritizing my studies?</label><br/>
-             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
-             <label class="form-check-label" for="yes querry">
-             </label>
-  </label>
+
+<label class="form-label">How does this app help in proritizing my studies?</label><br/>
+<input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
+<label class="form-check-label" for="yes querry">
+</label>
+</label>
+
 <br/>
 <br/>
-  <label class="form-label">Can multiple people use one account?</label><br/>
-             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
-             <label class="form-check-label" for="yes querry">
-             </label>
-  </label>
-  <br/>
+
+<label class="form-label">Can multiple people use one account?</label><br/>
+<input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
+<label class="form-check-label" for="yes querry">
+</label>
+</label>
+
 <br/>
-  <label class="form-label">I am interested in STUDY.CO For my School.</label><br/>
-             <input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
-             <label class="form-check-label" for="yes querry">
-             </label>
-  </label>
-         
+<br/>
+
+<label class="form-label">I am interested in STUDY.CO For my School.</label><br/>
+<input id="yesquerry" type="radio" value="s" name="querry" class="form-check-input"/>
+<label class="form-check-label" for="yes querry">
+</label>
+</label>
 
 <br/>
 <br/><br/>
 
+        <!-- ================= CONTACT FORM ================= -->
+        <form action="confirmation.html" id="contactform">
 
-
-    <form action="confirmation.html" id="contactform">
-
+        <!-- Name Field -->
         <div class="mb-3">
             <label for="fullname" class="form-label">Name: *</label><br/>
         <input required type="text" class="form-control" id="fullname" name="fullname" 
         placeholder="Mac Study.CO" />
         </div>
+
 <br/>
 <br/>
 
+        <!-- Telephone number Field -->
 <div class="mb-3">
-            <label for="number" class="form-label">Telephone Number: *</label><br/>
-        <input required type="tel" class="form-control" id="number" name="number" 
-        placeholder="888-888-888" />
-        </div>
+<label for="number" class="form-label">Telephone Number: *</label><br/>
+<input required type="tel" class="form-control" id="number" name="number" 
+placeholder="888-888-888" />
+</div>
+
 <br/>
 <br/>
 
-  <div class="mb-3">
-            <label for="email" class="form-label">Emailaddress: *</label><br/>
-        <input required type="email" class="form-control" id="email" name="emailaddress" 
-        placeholder="Mac@gmail.com" />
-        </div>
+        <!-- Emailaddress Field -->
+<div class="mb-3">
+<label for="email" class="form-label">Emailaddress: *</label><br/>
+<input required type="email" class="form-control" id="email" name="emailaddress" 
+placeholder="Mac@gmail.com" />
+</div>
+
 <br/>
 <br/>
        
+        <!-- Inquiry Text Area -->
 <div class="mb-3">
-  <label for="inquiry" class="form-label"*> Other: State Your Enquiry</label>
-   <br/>
+<label for="inquiry" class="form-label"*> Other: State Your Enquiry</label>
+<br/>
 
-  <textarea class="form-control"cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry">
-  </textarea>
+<textarea class="form-control"cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry">
+</textarea>
 
-  <br/>
+<br/>
 <br/>
 </div>
 
-        <input type="submit" class="btn btn-success"/>
-        <button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
+        <!-- Form Buttons -->
+<input type="submit" class="btn btn-success"/>
+<button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
+
          </form>
+
     </article>
-   
    
     </main>
 
-    <div class="cta">
+<div class="cta">
 <p>Start using the Student Digital Planner today and improve your productivity.</p>
 </div>
 
+<!-- ================= FOOTER ================= -->
 <footer>
+
 <p>Student Digital Planner Project | 2026</p>
 
 <a href="https://www.betterhelp.com" target="_blank">Better help</a>
 
-      
+<!-- Scripts -->
 <script src="scripts/jquery.min.js"></script>
-            <script src="scripts/bootstrap.min.js"></script>
-           <script src="scripts/site.js"></script>
-            <h2>Register now Start your Journey</h2>
-           </footer> 
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/site.js"></script>
 
-          
+<!-- Footer Heading -->
+<h2>Register now Start your Journey</h2>
+
+</footer> 
+
 </body>
 </html>

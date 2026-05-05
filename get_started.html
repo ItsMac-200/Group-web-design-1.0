@@ -9,24 +9,34 @@
    
 </head> 
 <body>
-    <div id="header">
+<div id="header">
+
+        <!-- Banner Section -->
         <div id="banner" class="bg-secondary text-white text-center">
             
         </div>
+
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
+
+     <!-- Logo -->
      <img class="logo" src="images/Logo1.png" alt="Logo1" width="130" height="100"/>
+
     <a class="navbar-brand" href="#">STUDY.CO.NET</a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- Navigation Links -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="about_us.html">About Us</a>
         <a class="nav-link" href="contact_us.html">Contact Us</a>
         <a class="nav-link" href="login.html">Login</a>
-            <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
         <a class="nav-link" href="get_started.html">Get Started</a>
         <a class="nav-link" href="study_plan.html">Study Plan</a>
         <a class="nav-link disabled"></a>
@@ -37,104 +47,132 @@
 
 <div id="main" class="container">
     
+    <!-- Main Content Area -->
     <main>
+
 <br/>
 <br/>
+
+    <!-- Page Title -->
     <h1 style="text-align: center;">Get Started</h1>
     <hr/>
       
+<!-- ================= REGISTRATION SECTION ================= -->
 <h2>Registration</h2>
 
-    <form action="study_plan.html" id="contactform">
+<!-- Registration Form -->
+<form action="study_plan.html" id="contactform">
 
+        <!-- Name Field -->
         <div class="mb-3">
             <label for="fullname" class="form-label">Name: *</label><br/>
         <input required type="text" class="form-control" id="fullname" name="fullname" 
         placeholder="Mac lo" />
         </div>
+
 <br/>
 <br/>
 
+        <!-- Telephone Number Field -->
 <div class="mb-3">
-            <label for="number" class="form-label">Telephone Number: *</label><br/>
-        <input required type="tel" class="form-control" id="number" name="number" 
-        placeholder="888-888-888" />
-        </div>
+<label for="number" class="form-label">Telephone Number: *</label><br/>
+<input required type="tel" class="form-control" id="number" name="number" 
+placeholder="888-888-888" />
+</div>
+
 <br/>
 <br/>
 
-  <div class="mb-3">
-            <label for="email" class="form-label">Emailaddress: *</label><br/>
-        <input required type="email" class="form-control" id="email" name="emailaddress" 
-        placeholder="Mac@gmail.com" />
-        </div>
+        <!-- Emailaddress Field -->
+<div class="mb-3">
+<label for="email" class="form-label">Emailaddress: *</label><br/>
+<input required type="email" class="form-control" id="email" name="emailaddress" 
+placeholder="Mac@gmail.com" />
+</div>
+
 <br/>
 <br/>
-        <div class="mb-3">
-            <label class="form-label">Are you employed?</label><br/>
-             <input id="yesemployed" type="radio" value="y" name="employed" class="form-check-input"/>
-             <label class="form-check-label" for="yes employed">yes
-  </label>
-  <input id="notemployed" type="radio" value="N" name="employed" class="form-check-input"/>
-             <label class="form-check-label" for="Not employed">no
-  </label>
-  <br/>
+
+        <!-- Employment Status -->
+<div class="mb-3">
+<label class="form-label">Are you employed?</label><br/>
+
+<input id="yesemployed" type="radio" value="y" name="employed" class="form-check-input"/>
+<label class="form-check-label" for="yes employed">yes</label>
+
+<input id="notemployed" type="radio" value="N" name="employed" class="form-check-input"/>
+<label class="form-check-label" for="Not employed">no</label>
+
 <br/>
+<br/>
+
+        <!-- Student Status -->
 <label class="form-label">Are you a student?</label><br/>
-             <input id="yesstudent" type="radio" value="y" name="student" class="form-check-input"/>
-             <label class="form-check-label" for="yes student">yes
-  </label>
-          <input id="notstudent" type="radio" value="N"name="student" class="form-check-input"/>
-             <label class="form-check-label" for="Not student">no
-  </label>  
+
+<input id="yesstudent" type="radio" value="y" name="student" class="form-check-input"/>
+<label class="form-check-label" for="yes student">yes</label>
+
+<input id="notstudent" type="radio" value="N"name="student" class="form-check-input"/>
+<label class="form-check-label" for="Not student"> no</label>  
+
 <br/>
 <br/>
-  <label class="form-label">What level are You?</label><br/>
-             <input id="yessecondary" type="radio" value="y" name="secondary" class="form-check-input"/>
-             <label class="form-check-label" for="yes secondary">Secondary
-             </label>
-  </label>
-          <input id="yesTertiary" type="radio" value="N"name="Tertiary" class="form-check-input"/>
-             <label class="form-check-label" for="yes Tertiary">Tertiary
-  </label>  
+
+        <!-- Education Level -->
+<label class="form-label">What level are You?</label><br/>
+
+<input id="yessecondary" type="radio" value="y" name="secondary" class="form-check-input"/>
+<label class="form-check-label" for="yes secondary">Secondary</label>
+</label>
+
+<input id="yesTertiary" type="radio" value="N"name="Tertiary" class="form-check-input"/>
+<label class="form-check-label" for="yes Tertiary">Tertiary</label>  
 
 <br/>
 <br/><br/>
 
+        <!-- Additional Inquiry -->
 <div class="mb-3">
-  <label for="inquiry" class="form-label"*> State your enqyiry if any</label>
-   <br/>
+<label for="inquiry" class="form-label"*> State your enqyiry if any</label>
+<br/>
 
-  <textarea class="form-control"cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry">
-  </textarea>
+<textarea class="form-control"cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry">
+</textarea>
 
-  <br/>
+<br/>
 <br/>
 </div>
 
-        <input type="submit" class="btn btn-success"/>
-        <button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
-         </form>
+        <!-- Form Buttons -->
+<input type="submit" class="btn btn-success"/>
+<button type="button" onclick="ClearForm()" class="btn btn-warning" >Clear</button>
+
+</form>
+
     </article>
-   
    
     </main>
 
-    <div class="cta">
+<div class="cta">
 <p>Start using the Student Digital Planner today and improve your productivity.</p>
 </div>
 
+<!-- ================= FOOTER ================= -->
 <footer>
+
 <p>Student Digital Planner Project | 2026</p>
 
 <a href="https://www.betterhelp.com" target="_blank">Better help</a>
 
+<!-- Scripts -->
 <script src="scripts/jquery.min.js"></script>
-            <script src="scripts/bootstrap.min.js"></script>
-           <script src="scripts/site.js"></script>
-            <h2>Register now Start your Journey</h2>
-           </footer> 
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/site.js"></script>
 
-          
+<!-- Footer Heading -->
+<h2>Register now Start your Journey</h2>
+
+</footer> 
+
 </body>
 </html>
